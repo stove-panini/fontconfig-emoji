@@ -1,4 +1,4 @@
-## emoji-fontconfig
+# emoji-fontconfig
 ### tl;dr
 1. Install the Bitstream Vera font family
 2. Drop these conf files in `~/.config/fontconfig/conf.d/`
