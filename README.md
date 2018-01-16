@@ -26,7 +26,7 @@ You may find that some other non-emoji fonts have emoji characters in them as we
 
 For example, ☺ (Unicode U+263A, White Smiling Face) is supported by the Liberation family (Microsoft equivalents) as well as the URW family (PostScript equivalents). So, if ☺ is on a page declaring Arial, Times, Helvetica, etc, the non-emoji version will be rendered.
 
-*Side note: This could be why another very similar smiley exists in the emoji set. Maybe* 🙂 *(Unicode U+1F642, Slightly Smiling Face) is intended to be used as the modern plain smiley in order to avoid the font confusion that arises with the old U+236A.*
+*Side note: This could be why another very similar smiley exists in the emoji set. Maybe* 🙂 *(Unicode U+1F642, Slightly Smiling Face) is intended to be used as the modern plain smiley in order to avoid the font confusion that arises with the old U+263A.*
 
 Okay. Ready for more problems? Let's talk about DejaVu!
 
