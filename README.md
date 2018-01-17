@@ -1,7 +1,7 @@
 # emoji-fontconfig
 ### tl;dr
 1. Install the Bitstream Vera font family
-2. Drop these conf files in `~/.config/fontconfig/conf.d/`
+2. Drop `69-emoji.conf` and `70-no-dejavu.conf` in `~/.config/fontconfig/conf.d/`
 3. Enjoy your emoji!
 
 ⌛️ and 🤔 should render graphical emoji.
@@ -45,13 +45,20 @@ Don't worry. Vera and DejaVu look identical.
 `69-emoji-monospace.conf` enables full emoji substitution rules in monospaced documents. Even without this rule, you can still fall back to the emoji family, provided your default monospace font doesn't contain the characters. I'm not a big fan of this one as I like to keep my monospaced documents as monospaced as possible!
 
 ### Final thoughts & recommendations
-In terms of my system's font collection, I prefer to have:
+In terms of my system's font collection with regard to functional emoji, I prefer to have:
   * Bitstream Vera
   * Liberation & URW for metric aliases
   * Google Noto Color Emoji
   * Symbola to slurp up the rest of those non-emoji symbols
-  * Non-Latin sets are up to you bc I have no idea what I'm doing there
 
-The existing Unicode characters that get picked up as emoji is completely nuts and I hate it. Take a look at [Arrows](https://en.wikipedia.org/wiki/Arrow_(symbol)#Arrows_by_Unicode_plane). If your fontconfig is set up properly, you'll see that the eight directional emoji arrows are taken from all over the place. Diagonals are from Arrows; left, up, and down are from Miscellaneous Symbols and Arrows; and right is from Dingbats. A couple more odd ones are in Supplemental Arrows-B. Couldn't they have just replaced a full set rather than mucking up a bunch? Yeesh.
+Whoever decides which already-existing Unicode characters get picked up as emoji is completely nuts and I hate them.
+
+For example, take a look at the Unicode planes for [Arrows](https://en.wikipedia.org/wiki/Arrow_(symbol)#Arrows_by_Unicode_plane):
+* Diagonals are from the Arrows plane
+* Left, up, and down are from Miscellaneous Symbols and Arrows
+* Right is from Dingbats
+* A couple more odd ones are in Supplemental Arrows-B
+
+Couldn't they have just replaced a full set rather than mucking up a bunch? Yeesh.
 
 Well, that's a nice, sour note to leave on. Take care, all!
