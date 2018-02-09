@@ -33,7 +33,7 @@ Okay. Ready for more problems? Let's talk about DejaVu!
 ### About DejaVu
 [DejaVu](https://en.wikipedia.org/wiki/DejaVu_fonts) is the default generic family for most distros. It's a fork of the older [Bitstream Vera](https://en.wikipedia.org/wiki/Bitstream_Vera), extended to cover more than just the Latin alphabet and common punctuation.
 
-Well, DejaVu covers some emoji, too. On a web page (or in a system UI element) where only a generic family (like sans) is called, it will render all of its emoji before handing things off to the proper emoji family.
+Well, DejaVu covers some emoji, too. On a web page (or in a system UI element) where only a generic family (like sans) is called, DejaVu will render all of its emoji before handing things off to the proper emoji family.
 
 The most painless fix is to install Bitstream Vera and blacklist DejaVu with `70-no-dejavu.conf`. The reason we're blacklisting rather than uninstalling is because the DejaVu package is usually marked as a dependency for several important packages on your system.
 
