@@ -44,19 +44,20 @@ Don't worry. Vera and DejaVu look identical.
 
 `69-emoji-monospace.conf` enables full emoji substitution rules in monospaced documents. Even without this rule, you can still fall back to the emoji family, provided your default monospace font doesn't contain the characters. I'm not a big fan of this one as I like to keep my monospaced documents as monospaced as possible!
 
-### Final thoughts & recommendations
+### My personal font family preferences
 In terms of my system's font collection with regard to functional emoji, I prefer to have:
   * Bitstream Vera
-  * Liberation & URW for metric aliases
+  * Liberation and/or URW for metric aliases
   * Google Noto Color Emoji
   * Symbola to slurp up the rest of those non-emoji symbols
 
+### P.S.
 Whoever decides which already-existing Unicode characters get picked up as emoji is completely nuts and I hate them.
 
 For example, take a look at the Unicode planes for [Arrows](https://en.wikipedia.org/wiki/Arrow_(symbol)#Arrows_by_Unicode_plane):
-* Diagonals are from the Arrows plane
-* Left, up, and down are from Miscellaneous Symbols and Arrows
-* Right is from Dingbats
+* Diagonal arrow emoji are from the Arrows plane
+* Left, up, and down emoji are from Miscellaneous Symbols and Arrows
+* Right emoji is from Dingbats
 * A couple more odd ones are in Supplemental Arrows-B
 
 Couldn't they have just replaced a full set rather than mucking up a bunch? Yeesh.
