@@ -1,4 +1,4 @@
-# emoji-fontconfig
+# fontconfig-emoji
 ### tl;dr
 1. Drop `69-emoji.conf` and `70-no-dejavu.conf` in `~/.config/fontconfig/conf.d/`
 2. Enjoy your emoji!
