@@ -1,7 +1,9 @@
 # fontconfig-emoji
 
 ## Deprecation Notice
-At the time of writing these configuration files, proper prioritization of the "Emoji" font family hadn't made its way into most distros. This has since changed! Fontconfig currently works its magic right out of the box nowadays. DejaVu still remains a problem for reasons described below, so you'll need to blacklist that.
+At the time of writing these configuration files, proper prioritization of the "Emoji" font family hadn't made its way into most distros. This has since changed! Fontconfig currently works its magic right out of the box nowadays.
+
+DejaVu still remains a problem for reasons described below, so you'll need to blacklist that.
 
 ### tl;dr
 1. Drop `70-no-dejavu.conf` in `~/.config/fontconfig/conf.d/`
