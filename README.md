@@ -3,7 +3,9 @@
 ## Deprecation Notice
 At the time of writing these configuration files, proper prioritization of the "Emoji" font family hadn't made its way into most distros. This has since changed! Fontconfig currently works its magic right out of the box nowadays.
 
-DejaVu still remains a problem for reasons described below, so you'll need to blacklist that.
+As of this writing, I'm running Fedora 33 with none of these customizations applied and everything works as intended.
+
+DejaVu _may_ still remain a problem for reasons described below, so you might have to blacklist that.
 
 ### tl;dr
 1. Drop `70-no-dejavu.conf` in `~/.config/fontconfig/conf.d/`
@@ -42,6 +44,3 @@ You may find that some other non-emoji fonts have emoji characters in them as we
 For example, ☺ (Unicode U+263A, White Smiling Face) is supported by the Liberation family (Microsoft equivalents) as well as the URW family (PostScript equivalents). So, if ☺ is on a page declaring Arial, Times, Helvetica, etc, the non-emoji version will be rendered.
 
 *Side note: This could be why another very similar smiley exists in the emoji set. Maybe* 🙂 *(Unicode U+1F642, Slightly Smiling Face) is intended to be used as the modern plain smiley in order to avoid the font confusion that arises with the old U+263A.*
-
-### Optional files
-`70-no-mozilla-emoji.conf` blacklists EmojiOne Mozilla, the version of [Emoji One](https://github.com/eosrei/emojione-color-font) that's bundled with Firefox. Use this if you plan on installing another emoji font like the one from Google's [Noto](https://github.com/googlei18n/noto-emoji) project.
